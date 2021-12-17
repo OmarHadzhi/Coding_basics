@@ -1,0 +1,6 @@
+digit1 = two_digit_number[0]
+digit1_int = int(two_digit_number[0]) 
+digit2 = two_digit_number[1]
+digit2_int = int(two_digit_number[1])
+# summ_of_digits_int = digit1_int + digit2_int
+print(digit1 + " + " + digit2 + " = " + str(digit1_int + digit2_int) )
