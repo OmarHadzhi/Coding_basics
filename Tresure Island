@@ -1,0 +1,23 @@
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+step1 = input("Left or Right? ").lower()
+if step1 == "left":
+  step2 = input("Swim or Wait? ").lower()
+  if step2 == "wait":
+      step3 = input("Which door? ").lower()
+      if step3 == "yellow":
+        print("You win!")
+      elif step3 == "red":
+        print("Burned by fire! Game over!")
+      elif step3 == "blue":
+        print("eaten by beasts. Game Over!")
+      else:
+        print("Game Over, mate!")
+  else:
+    print("Attacked by trout. Game Over!")
+else:
+  print("Fall into a hole. Game Over!")
